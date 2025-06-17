@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Exploración Espacial</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <nav class="navbar">
+      <!-- Logo que flota -->
+<div class="logo float">COSMOS+</div>
+
+<!-- Título que aparece con blur -->
+<div class="hero-text blur-in">
+  <h1>Exploración Espacial</h1>
+  <p>Más allá del horizonte terrestre</p>
+</div>
+
+      <ul class="nav-links">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#planetas">Planetas</a></li>
+        <li><a href="#tecnologia">Tecnología</a></li>
+        <li><a href="#misterios">Misterios</a></li>
+        <li><a href="#galeria">Galería</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="inicio" class="section fade-in">
+    <h2>Un viaje a través del espacio</h2>
+    <p>Desde los antiguos astrónomos hasta las modernas misiones espaciales, la humanidad ha estado fascinada por los secretos del universo. En esta edición especial, nos sumergimos en los datos más impactantes, los avances tecnológicos y los enigmas aún sin resolver del cosmos.</p>
+    <center>
+    <img src="xd.jpg" alt="">
+    </center>
+  </section>
+
+  <section id="planetas" class="section slide-in-left">
+    <h2>Planetas del Sistema Solar</h2>
+
+    <article class="articulo">
+      <h3>🌍 Tierra: el planeta azul</h3>
+      <p>
+        Nuestro hogar es un oasis en medio del vacío. La Tierra es el único planeta conocido con vida, atmósfera respirable y agua en estado líquido. ¿Pero qué tan único es realmente?
+        <span class="oculto"> Se han detectado exoplanetas con características similares, aunque aún distantes. Las misiones espaciales como Kepler y TESS siguen buscando mundos como el nuestro.</span>
+        <button onclick="toggleTexto(this)">Leer más</button>
+      </p>
+      
+    </article>
+    <center>
+    <img src="tierra.jpg" alt="" width="250px">
+        </center>
+
+    <article class="articulo">
+      <h3>🪐 Saturno: el joyero del espacio</h3>
+      <p>
+        Famoso por sus anillos, Saturno no es solo un espectáculo visual. Sus más de 80 lunas esconden posibilidades asombrosas.
+        <span class="oculto"> Titán, una de sus lunas más grandes, tiene lagos de metano líquido y una atmósfera espesa que intriga a los científicos como posible lugar para vida alternativa.</span>
+        <button onclick="toggleTexto(this)">Leer más</button>
+      </p>
+    </article>
+    <center>
+    <img src="saturn.jpg" alt="" width="500px">
+        </center>
+  </section>
+
+  <section id="tecnologia" class="section slide-in-right">
+    <h2>Tecnología Espacial</h2>
+    <article class="articulo">
+      <h3>Cohetes reutilizables</h3>
+      <p>
+        El paradigma cambió con SpaceX y su Falcon 9. Hoy, lanzar al espacio cuesta menos que hace una década.
+        <span class="oculto"> Empresas privadas y agencias públicas ahora colaboran para enviar misiones a Marte y más allá, optimizando recursos y reduciendo la huella ecológica espacial.</span>
+        <button onclick="toggleTexto(this)">Leer más</button>
+      </p>
+
+    </article>
+    <img src="c.jpg" alt="" width="300px">
+
+
+    <article class="articulo">
+      <h3>Telescopios del futuro</h3>
+      <p>
+        La era de James Webb ha comenzado. Con visión infrarroja, nos permite ver el pasado profundo del universo.
+        <span class="oculto"> Este tipo de instrumentos nos acercan a entender los primeros instantes después del Big Bang, además de detectar atmósferas exoplanetarias.</span>
+        <button onclick="toggleTexto(this)">Leer más</button>
+      </p>
+    </article>
+    <img src="t.jpg" alt="">
+    <article class="articulo">
+  <h3>Inteligencia artificial en misiones espaciales</h3>
+  <p>
+    La IA ya controla trayectorias, maneja sondas y analiza datos de galaxias lejanas. El futuro de la exploración no será humano, sino algorítmico.
+    <span class="oculto">
+      Proyectos como NASA FDL utilizan IA para identificar patrones en millones de imágenes astronómicas. Incluso, se están diseñando robots autónomos capaces de explorar la superficie marciana sin intervención directa.
+    </span>
+    <button onclick="toggleTexto(this)">Leer más</button>
+  </p>
+</article>
+
+<article class="articulo">
+  <h3>Ropa espacial del futuro</h3>
+  <p>
+    Los nuevos trajes espaciales no son solo protección: son mini estaciones tecnológicas. Ligereza, autonomía y realidad aumentada.
+    <span class="oculto">
+      Empresas como Axiom y SpaceX están desarrollando trajes que regulan temperatura, miden signos vitales y se adaptan a la gravedad. Incluso se exploran materiales autorreparables y controlados por voz.
+    </span>
+    <button onclick="toggleTexto(this)">Leer más</button>
+  </p>
+</article>
+
+  </section>
+
+  <section id="misterios" class="section fade-in">
+    <h2>Misterios del Universo</h2>
+    <article class="articulo">
+      <h3>Materia Oscura</h3>
+      <p>
+        Invisible, pero dominante. Representa más del 80% de la materia del universo, aunque aún no sabemos qué es.
+        <span class="oculto"> Su presencia solo se infiere por los efectos gravitatorios que causa en galaxias y cúmulos. ¿Es una partícula? ¿Una fuerza? El misterio sigue abierto.</span>
+        <button onclick="toggleTexto(this)">Leer más</button>
+      </p>
+    </article>
+<center>
+    <img src="mo.jpg" alt="">
+</center>
+    <article class="articulo">
+      <h3>Agujeros negros</h3>
+      <p>
+        Regiones donde la gravedad lo devora todo, incluso la luz. Pero no son solo destructores: pueden ser portales cósmicos.
+        <span class="oculto"> Se teoriza que podrían conectar con otros universos, o incluso con el origen mismo del tiempo. Su estudio es clave para unificar la física cuántica y la relatividad.</span>
+        <button onclick="toggleTexto(this)">Leer más</button>
+      </p>
+    </article>
+<center>
+    <img src="an.jpg" alt="">
+</center>
+    <article class="articulo">
+  <h3>🟣 Neptuno: el gigante azul oculto</h3>
+  <p>
+    Neptuno, el planeta más distante del Sol, posee vientos supersónicos y una atmósfera misteriosa aún no explorada por misiones modernas.
+    <span class="oculto">
+      En 1989, la Voyager 2 fue la única sonda que lo visitó. Hoy, científicos plantean enviar orbitadores para estudiar su estructura interna, su campo magnético y las posibles lunas con actividad geológica como Tritón.
+    </span>
+    <button onclick="toggleTexto(this)">Leer más</button>
+  </p>
+</article>
+<center>
+    <img src="n.jpg" alt="">
+</center>
+<article class="articulo">
+  <h3>🟠 Venus: el infierno gemelo</h3>
+  <p>
+    Similar en tamaño a la Tierra, pero con condiciones infernales. Venus tiene una temperatura superficial de más de 460 °C y una presión atmosférica aplastante.
+    <span class="oculto">
+      Rec
+<article class="articulo">
+  <h3>La paradoja de Fermi</h3>
+  <p>
+    Si el universo está lleno de estrellas y planetas, ¿por qué no hemos detectado vida extraterrestre? Esa es la gran pregunta.
+    <span class="oculto">
+      Las posibles respuestas van desde que somos los primeros, hasta que las civilizaciones se autodestruyen antes de comunicarse. Otras teorías apuntan a que ya están aquí, pero no los comprendemos.
+    </span>
+    <button onclick="toggleTexto(this)">Leer más</button>
+  </p>
+</article>
+<article class="articulo">
+  <h3>Energía oscura</h3>
+  <p>
+    El universo se expande a una velocidad acelerada. ¿Qué fuerza lo impulsa? La energía oscura podría ser responsable del destino final del cosmos.
+    <span class="oculto">
+      Aunque representa casi el 70% del contenido del universo, no interactúa con la materia común. Su estudio podría cambiar nuestra comprensión del tiempo, la gravedad y la estructura misma de la realidad.
+    </span>
+    <button onclick="toggleTexto(this)">Leer más</button>
+  </p>
+</article>
+
+  </section>
+
+<center>
+    <img src="v.jpg" alt="" width="300px">
+</center>
+  <section id="galeria" class="section parallax">
+    <h2>Galería Espacial</h2>
+    <div class="imagenes">
+      <img src="g.jpg" alt="Galaxia" />
+      <img src="nasa.jpg" alt="NASA" />
+      <img src="m.jpg" alt="Marte" />
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Cosmos+ | Inspirado en el conocimiento infinito</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
